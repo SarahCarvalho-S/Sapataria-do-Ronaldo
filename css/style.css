@@ -7,6 +7,7 @@
     ul {
       display: flex;
       justify-content: space-evenly;
+      list-style: none;
      }
   
 
@@ -23,5 +24,37 @@
     }
 
     body {
-        background-color:wheat;
+        background-color: #E6E6E6;
+        margin: 150px;
     }
+
+
+.container-sapatos {
+    display: flex;
+    background-color:#E6E6E6;
+    flex-direction: row;
+    padding: 20px;
+    height: 400px;
+
+}  
+
+
+.container-cintos {
+    display: flex;
+    background-color:#E6E6E6;
+    flex-direction: row;
+    justify-content: space-around;  
+    padding: 20px;
+    height: 400px;
+    text-align: justify;
+
+} 
+
+div h2{
+    color:navy;
+    text-align:inherit;
+}
+
+
+
+
