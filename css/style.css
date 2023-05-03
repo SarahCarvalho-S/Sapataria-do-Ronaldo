@@ -18,9 +18,9 @@
     }
 
 
-    h1, p {
+    h1,  {
         text-align: center;
-        color:rgba(175, 71, 23, 0.836)
+        color: #000000  
     }
 
     body {
@@ -45,16 +45,36 @@
     flex-direction: row;
     justify-content: space-around;  
     padding: 20px;
-    height: 400px;
+    height: 700px;
     text-align: justify;
 
 } 
 
 div h2{
-    color:navy;
+    color:rgb(0, 0, 0);
     text-align:inherit;
 }
 
 
 
+nav a:hover{ 
+    color: #ffff
+    
+    
+}
+ 
+p {
+    color: black;
+}
 
+
+
+.container-sapatos-prada {
+    display: flex;
+    background-color:#E6E6E6;
+    flex-direction: row;
+    justify-content: space-around;  
+    padding: 20px;
+    height: 400px;
+    text-align: justify;
+}
