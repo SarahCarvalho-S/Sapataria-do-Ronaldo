@@ -71,3 +71,31 @@ p {
   }
 
 
+
+
+  .caixa1{
+    background-color: #E6E6E6;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;}
+
+   .caixa2{
+        background-color: #E6E6E6;
+        height: 400px;
+        width: 300px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 16px;}  
+ 
+ 
+ .container-memorie {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background-color: #E6E6E6;
+            padding: 10px;
+            height: 400px;  }    
