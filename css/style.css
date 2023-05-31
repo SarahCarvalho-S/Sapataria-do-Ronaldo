@@ -1,50 +1,51 @@
-.menu-navegacao{
+.menu-navegacao {
     width: 80%;
     margin: auto;
 }
-  
-  
-    ul {
-      display: flex;
-      justify-content: space-evenly;
-      list-style: none;
-     }
-  
 
 
- li {
-     padding: 20px;
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
 
-    }
 
 
-    h1,  {
-        text-align: center;
-        color: #000000  
-    }
+li {
+    padding: 20px;
 
-    body {
-        background-color: #E6E6E6;
-        margin: 150px;
-    }
+}
 
-.bloco-1 p{
+
+h1,
+{
+text-align: center;
+color: #000000
+}
+
+body {
+    background-color: #E6E6E6;
+    margin: 150px;
+}
+
+.bloco-1 p {
     font-size: 20px;
     margin-top: -28px;
 }
 
 
-div h2{
-    color:rgb(0, 0, 0);
-    text-align:inherit;
+div h2 {
+    color: rgb(0, 0, 0);
+    text-align: inherit;
 }
 
 
 
-h2:hover{
+h2:hover {
     color: #fff;
 }
- 
+
 p {
     color: black;
 }
@@ -53,9 +54,9 @@ p {
 
 .container-sapatos-prada {
     display: flex;
-    background-color:#E6E6E6;
+    background-color: #E6E6E6;
     flex-direction: row;
-    justify-content: space-around;  
+    justify-content: space-around;
     padding: 20px;
     height: 400px;
     text-align: justify;
@@ -68,34 +69,56 @@ p {
     height: 250px;
     object-fit: cover;
     object-position: 75px 50%;
-  }
+}
 
 
 
 
-  .caixa1{
+.caixa1 {
     background-color: #E6E6E6;
     height: 400px;
     width: 300px;
     text-align: center;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 16px;}
+    border-radius: 16px;
+}
 
-   .caixa2{
-        background-color: #E6E6E6;
-        height: 400px;
-        width: 300px;
-        text-align: center;
-        font-size: 40px;
-        font-family: 'Courier New', Courier, monospace;
-        border-radius: 16px;}  
- 
- 
- .container-memorie {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            background-color: #E6E6E6;
-            padding: 10px;
-            height: 400px;  }    
+.caixa2 {
+    background-color: #E6E6E6;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+
+.container-memorie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #E6E6E6;
+    padding: 10px;
+    height: 400px;
+}
+
+#contato {
+    background-color: rgb(144, 182, 146);
+    display: block;
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+
+}
+
+
+button{
+    background-color: rgb(155, 214, 253);
+}
+
+
+button:hover {
+    background-color: rgb(33, 125, 245);
+}
